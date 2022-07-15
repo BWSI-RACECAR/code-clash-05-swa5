@@ -29,7 +29,7 @@ class Solution:
         # type hi_string: string
         # return: int
         counter = 0 
-        for i  in range(len(hi_string): 
+        for i  in range(len(hi_string)): 
             if hi_string[char] == "h" and hi_string[char+1] == "i":
                 counter += 1
         
