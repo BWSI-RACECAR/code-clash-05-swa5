@@ -29,10 +29,11 @@ class Solution:
         # type hi_string: string
         # return: int
         counter = 0 
-        for i  in range(len(hi_string)-1): 
-            if hi_string[i] == "h" and hi_string[i+1] == "i":
-                counter += 1
+        # for i  in range(len(hi_string)-1): 
+        #     if hi_string[i] == "h" and hi_string[i+1] == "i":
+        #         counter += 1
         
+        counter = hi_string.count("hi")
         return counter
         # TODO: Write code below to return an int with the solution to the prompt
 
