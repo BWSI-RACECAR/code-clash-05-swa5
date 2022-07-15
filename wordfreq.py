@@ -30,7 +30,7 @@ class Solution:
         # return: int
         counter = 0 
         for char in hi_string: 
-            if char == "h" and char+1 == "i":
+            if hi_string[char] == "h" and hi_string[char+1] == "i":
                 counter += 1
         
         return counter
