@@ -32,8 +32,8 @@ class Solution:
         # for i  in range(len(hi_string)-1): 
         #     if hi_string[i] == "h" and hi_string[i+1] == "i":
         #         counter += 1
-        
-        counter = hi_string.count("hi")
+        lowerstring = hi_string.lower()
+        counter = lowerstring.count("hi")
         return counter
         # TODO: Write code below to return an int with the solution to the prompt
 
